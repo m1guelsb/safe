@@ -22,7 +22,7 @@ export const Container = styled.div`
       color: var(--text-body);
       
       &:first-child{
-      border-radius: 1.5rem 0 0 1.5rem;
+      border-radius: 0 0 0 1.5rem;
       color: var(--text-title);
       }
       &:last-child{

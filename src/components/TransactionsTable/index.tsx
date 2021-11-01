@@ -1,6 +1,15 @@
+import { useEffect } from "react";
 import { Container } from "./styles";
 
+import { useTransactionTable } from "./useTransactionTable";
+
 export function TransactionTable() {
+  const data = useTransactionTable();
+
+  useEffect(()=>{
+    console.log(data);
+  },[data])
+
   return (
     <Container>
       <table>
