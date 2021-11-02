@@ -26,7 +26,15 @@ createServer({
           title: 'alguel da milicia',
           type: 'withdraw',
           category: 'milicia',
-          amount: 56000,
+          amount: 3000,
+          createdAt: new Date('2021-02-19 15:00:00')
+        },
+        {
+          id: 3,
+          title: 'agiota',
+          type: 'withdraw',
+          category: 'agiotagem',
+          amount: 5000,
           createdAt: new Date('2021-02-19 15:00:00')
         }
       ]
